@@ -1,7 +1,9 @@
 .center {
+	clear:both;
 	display: block;
 	margin-top: 200px;
 	text-align:center;
+	
 }
 #searchbox {
 	width:600px;
@@ -26,4 +28,36 @@
 input[type=submit] {
 	font-family: Arial, sans-serif;
 	font-weight: bold;
+}
+ul {
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	float: right;
+}
+li {
+	display:inline;	
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	margin:10px;
+}
+.navbar {
+	margin-top: 10px;
+	margin-bottom: 170px;
+	margin-right: 10px;
+}
+a {
+	text-decoration: none;
+	color:grey;
+}
+a:hover {
+	text-decoration: underline;
+}
+.signin {
+	background-color: #4587F2;
+	color:white;
+	font-size: 15px;
+	font-weight: bold;
+	padding:5px 10px 7px 10px;
+	border-radius: 2px;
 }
