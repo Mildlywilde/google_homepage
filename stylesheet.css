@@ -1,7 +1,6 @@
 .center {
 	clear:both;
 	display: block;
-	margin-top: 200px;
 	text-align:center;
 	
 }
@@ -40,6 +39,7 @@ li {
 	font-family: Arial, sans-serif;
 	font-size: 13px;
 	margin:10px;
+
 }
 .navbar {
 	margin-top: 10px;
@@ -60,4 +60,18 @@ a:hover {
 	font-weight: bold;
 	padding:5px 10px 7px 10px;
 	border-radius: 2px;
+}
+
+.footerleft {
+	float:left;
+}
+
+.footer {
+	padding:10px;
+	background-color: #F2F2F2;
+	height:20px;
+	width:100%;
+	position: fixed;
+	bottom:0;
+	left:0;
 }
